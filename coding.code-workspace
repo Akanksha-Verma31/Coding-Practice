@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"code-builder.build.inputFilePath": "c:\\Users\\Akanksha\\Documents\\coding\\input.txt",
+		"code-builder.build.outputFilePath": "c:\\Users\\Akanksha\\Documents\\coding\\output.txt"
+	}
+}
