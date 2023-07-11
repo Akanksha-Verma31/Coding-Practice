@@ -16,7 +16,7 @@ public class pattern6 {
         int count = 1;
 
         // for printing the upper half
-        for (int i = Math.abs(m); i > 0; i--) {
+        for (int i = Math.abs(m); i >= 0; i--) {
             if (i <= Math.abs(m)) {
                 for (int k = i; k >= 0; k--) {
                     System.out.print("*");
@@ -36,7 +36,6 @@ public class pattern6 {
             System.out.println();
         }
 
-        System.out.println();
         count = Math.abs(m) + 1;
 
         // for printing the lower half
@@ -59,5 +58,6 @@ public class pattern6 {
             count = count - 2;
             System.out.println();
         }
+        sc.close();
     }
 }
