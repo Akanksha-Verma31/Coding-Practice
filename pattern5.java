@@ -61,5 +61,6 @@ public class pattern5 {
             count = count - 2;
             System.out.println();
         }
+        sc.close();
     }
 }

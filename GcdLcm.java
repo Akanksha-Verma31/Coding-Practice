@@ -17,11 +17,11 @@ import java.util.Scanner;
 public class GcdLcm {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Input the numbers
-        int num1 = scanner.nextInt();
-        int num2 = scanner.nextInt();
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
 
         // Calculate GCD and LCM
         int gcd = calculateGcd(num1, num2);
@@ -30,6 +30,8 @@ public class GcdLcm {
         // Print the results
         System.out.println("GCD: " + gcd);
         System.out.println("LCM: " + lcm);
+
+        sc.close();
     }
 
     private static int calculateGcd(int a, int b) {
